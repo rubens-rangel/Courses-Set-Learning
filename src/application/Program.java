@@ -14,7 +14,7 @@ public class Program {
 
     Scanner sc = new Scanner(System.in);
 
-        System.out.println("How many Students for course A:");
+        System.out.print("How many Students for course A: ");
         int A = sc.nextInt();
         for (int i=0; i < A;i++){
             System.out.println("Code student " + (i+1) + ":" );
@@ -22,7 +22,7 @@ public class Program {
             set.add(new Courses(studentId));
         }
 
-        System.out.println("How many Students for course B:");
+        System.out.print("How many Students for course B: ");
         int B = sc.nextInt();
         for (int i=0; i < B;i++){
             System.out.println("Code student " + (i+1) + ":" );
@@ -30,7 +30,7 @@ public class Program {
             set.add(new Courses(studentId));
         }
 
-        System.out.println("How many Students for course C:");
+        System.out.print("How many Students for course C: ");
         int C = sc.nextInt();
         for (int i=0; i < C;i++){
             System.out.println("Code student " + (i+1) + ":" );
